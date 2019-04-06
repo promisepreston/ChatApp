@@ -33,8 +33,8 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'devise'
 #Use Jquery rails for Jqueryand the jQuery-ujs driver
 gem 'jquery-rails'
-
-
+#Use for rails form building
+gem 'simple_form'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
