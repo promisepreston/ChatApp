@@ -27,8 +27,15 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-#Use Devise for flexible authentication  solution
+#Use Devise for flexible authentication solution
 gem 'devise'
+#Use Bootstrap for Boostrap 4
+gem 'bootstrap', '~> 4.3.1'
+#Use Boostrap Form for Rails form building
+gem "bootstrap_form", ">= 4.2.0"
+#Use Jquery rails for Jqueryand the jQuery-ujs driver
+gem 'jquery-rails'
+
 
 
 # Use ActiveStorage variant
