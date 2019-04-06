@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'rooms#index'
+  
   resources :room_messages
   resources :rooms
   devise_for :users
