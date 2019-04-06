@@ -7,6 +7,10 @@ class RoomsController < ApplicationController
     @room = Room.new
   end
 
+  def show
+    @room_message = RoomMessage.new room: @room
+  end
+
   def create
     @room = Room.new permitted_parameters
 
